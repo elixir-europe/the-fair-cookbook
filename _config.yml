@@ -1,10 +1,10 @@
-title: Website title
+title: FAIR Cookbook
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Website title
+topnav_title: FAIR Cookbook
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
-description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
+description: "The FAIR Cookbook for FAIR doers"
 # Metadata description of the website
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
@@ -27,7 +27,7 @@ defaults:
 
 theme_variables: 
   # git_host: GitHub
-  # back_to_top: true
+  back_to_top: true
   # dev-info-banner: false
   # privacy_statement_url: /privacy
   # github_buttons: 
@@ -47,9 +47,9 @@ theme_variables:
   # toc:
   #   min_headings: 2
   #   headings: 'h2'
-  # topnav:
-    # theme: light
-    # brand_logo: assets/img/main_logo.svg
+  topnav:
+    theme: light
+    brand_logo: assets/img/cookbook-logo-small.png
     # github: true
     # twitter: false
     # bluesky: false
